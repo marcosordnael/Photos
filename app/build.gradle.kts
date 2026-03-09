@@ -49,4 +49,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Gson
+    implementation("com.google.code.gson:gson:2.10.1")
+
+    // Volley
+    implementation("com.android.volley:volley:1.2.1")
 }
